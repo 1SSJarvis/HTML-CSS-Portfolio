@@ -230,7 +230,7 @@ footer a:visited {
 }
 
 .social-pics:hover {
-  transform: translateY(-20px);
+  transform: translateY(-8px);
 }
 
 .social-pics {
