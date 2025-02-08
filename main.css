@@ -1,0 +1,238 @@
+@media screen and (max-width:600px) {
+  
+}
+
+* {
+  margin: 0;
+}
+
+html {
+  background: #45546e;
+  font-family: system-ui;
+  scroll-behavior: smooth;
+}
+
+#navbar {
+  position: fixed;
+  top: 0;
+  right: 0;
+  background: lightcoral;
+  font-size: 30px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
+  padding-right: 20px;
+  box-sizing: border-box;
+  font-family: system-ui;
+  z-index: 1;
+}
+
+.navlinks a {
+  padding: 10px;
+  transition: all 0.3s;
+}
+
+.navlinks a:link {
+  color: snow;
+  text-decoration: none;
+}
+
+.navlinks a:visited {
+  color: snow;
+}
+
+.navlinks a:hover{
+  color: brown;
+  background: linear-gradient(lightcoral, lightgray);
+  padding-top: 25px;
+  height: 100%;
+  text-decoration: underline;
+}
+
+#welcome-section {
+  padding-top: 160px;
+  padding-bottom: 300px;
+  text-align: center;
+  color: tomato;
+  font-size: 20px;
+  line-height: 3;
+}
+
+#welcome-section h1 {
+  color: snow;
+  font-size: 40px;
+}
+
+#welcome-section a:link {
+  color: gold;
+  transition: color 0.3s;
+}
+
+#welcome-section a:hover {
+  color: snow;
+}
+
+#welcome-section a:visited {
+  color: darkgoldenrod;
+}
+
+#note {
+  color: gold;
+  font-size: 15px;
+}
+
+#projects {
+  text-align: center;
+  color: tomato;
+  font-size: 20px;
+  padding-top: 30px;
+  margin: auto;
+}
+
+#projects-note {
+  padding-bottom: 50px;
+}
+
+.project-tile img {
+    width: 300px;
+    height: 200px;
+    border-radius: 20px;
+}
+
+.container a:link {
+    color: gold;
+    text-decoration: none;
+}
+
+.container a:hover {
+    text-decoration: underline;
+}
+
+.container a:visited {
+    color: gold;
+    text-decoration: none;
+}
+
+.container {
+    display: inline-grid;
+    grid-template-columns: auto auto auto;
+    background: lightslategray;
+    gap: 30px;
+    border-radius: 20px;
+    text-align: center;
+    padding: 50px;
+    justify-items: center;
+    place-items: center;
+}
+
+#survey-project {
+    background: darkgray;
+    padding: 30px;
+    border-radius: 20px;
+    transition: all 0.3s ease;
+}
+
+#survey-project:hover {
+  transform: translateY(-20px);
+  background: snow;
+}
+
+#tribute-page {
+    background: darkgray;
+    padding: 30px;
+    border-radius: 20px;
+    transition: all 0.3s ease;
+}
+
+#tribute-page:hover {
+  transform: translateY(-20px);
+  background: snow;
+}
+
+#Document-Project {
+    background: darkgray;
+    padding: 30px;
+    border-radius: 20px;
+    transition: all 0.3s ease;
+}
+
+#Document-Project:hover {
+  transform: translateY(-20px);
+  background: snow;
+}
+
+#Product-Project {
+    background: darkgray;
+    padding: 30px;
+    border-radius: 20px;
+    transition: all 0.3s ease;
+}
+
+#Product-Project:hover {
+  transform: translateY(-20px);
+  background: snow;
+}
+
+h3 {
+  padding-top: 70px;
+  color: snow;
+  text-align: center;
+  font-size: 30px;
+  padding-bottom: 15px;
+}
+
+#thoughts {
+  color: tomato;
+  font-size: 20px;
+  margin-right: 250px;
+  margin-left: 250px;
+  line-height: 2.5;
+  padding-bottom: 50px;
+}
+
+footer {
+  background: #74777a;
+  color: snow;
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  line-height: 2;
+  font-family: system-ui;
+  font-size: 20px;
+}
+
+#footer-info {
+  margin-left: 150px;
+}
+
+footer a {
+  transition: all 0.3s;
+}
+
+footer a:link {
+  text-decoration: none;
+  color: gold;
+  margin-right: 10px;
+  transition: all 0.3s;
+}
+
+footer a:hover {
+  color: snow;
+}
+
+footer a:visited {
+  color: gold;
+}
+
+.social-pics {
+  transition: all 0.3s ease;
+}
+
+.social-pics:hover {
+  transform: translateY(-20px);
+}
+
+.social-pics {
+  border-radius: 15px;
+}
