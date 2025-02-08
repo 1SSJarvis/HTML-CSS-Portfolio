@@ -3,4 +3,4 @@ This was the final project before obtaining the Responsive Web Design Certificat
 In order to open the website follow these directions:
   1. Go to Settings
   2. Click on Pages
-  3. 
+  3. Click on Visit Site
